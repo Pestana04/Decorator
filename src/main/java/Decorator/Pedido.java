@@ -1,4 +1,8 @@
 package Decorator;
 
-public class Pedido {
+public interface Pedido {
+
+    float getValor();
+    String getDescricao();
+
 }
